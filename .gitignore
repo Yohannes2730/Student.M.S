@@ -1,0 +1,12 @@
+# Ignore backend Node modules and environment files
+backend/node_modules/
+backend/.env
+.env.local
+.dart_tool/
+
+# Ignore build artifacts
+backend/dist/
+
+# Optional: ignore editor and OS files
+.DS_Store
+*.log
